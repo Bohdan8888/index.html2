@@ -13,3 +13,30 @@ ul,
 ol {
   list-style-type: none;
 }
+.linc {
+  text-decoration: none;
+  width: 153px;
+  height: 24px;
+  color: black;
+}
+.linc:hover {
+  color: #404bbf;
+}
+.heder_linc:hover {
+  color: #404bbf;
+}
+.heder_linc {
+  cursor: pointer;
+  width: 52px;
+  height: 16;
+  font-weight: 400;
+  size: 12px;
+  letter-spacing: 4%;
+}
+.linc {
+  width: 52px;
+  height: 16;
+  font-weight: 400;
+  size: 12px;
+  letter-spacing: 4%;
+}

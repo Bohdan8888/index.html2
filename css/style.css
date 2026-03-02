@@ -13,6 +13,24 @@ ul,
 ol {
   list-style-type: none;
 }
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 0.15);
+  transition: background-color 250ms ease;
+}
+button:hover {
+  background-color: #404bbf;
+}
+button:focus-visible {
+  outline: none;
+}
 .linc {
   text-decoration: none;
   width: 153px;
@@ -21,9 +39,12 @@ ol {
 }
 .linc:hover {
   color: #404bbf;
+  text-decoration: underline;
 }
 .heder_linc:hover {
   color: #404bbf;
+  text-decoration: underline;
+  line-height: 16px;
 }
 .heder_linc {
   cursor: pointer;
@@ -37,6 +58,6 @@ ol {
   width: 52px;
   height: 16;
   font-weight: 400;
-  size: 12px;
+  font-size: 16px;
   letter-spacing: 4%;
 }
